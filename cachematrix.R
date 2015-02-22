@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This library calculates the inverse of a given matrix using the cache.
 
-## Write a short comment describing this function
+## Creates a special matrix with an inverse property and set/get functions.
 
 makeCacheMatrix <- function(x = matrix()) {
         inverse <- NULL
@@ -17,8 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getinverse = getinverse)
 }
 
-
-## Write a short comment describing this function
+## Returns the inverse of a Matrix. Uses cache if exists.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
