@@ -32,13 +32,3 @@ cacheSolve <- function(x, ...) {
         x$setInverted(inverted)
         inverted
 }
-
-inverted <-x$getInverted()
-if(!is.null(inverted))
-{
-        return(inverted)
-}
-data <- x$get()
-inverted<-solve(data)
-x$setInverted(inverted)
-inverted
